@@ -1,5 +1,5 @@
 require "pry"
-
+require "okogiri"
 html = File.read('fixtures/kickstarter.html')
 
 kickstarter = Nokogiri::HTML(html)
